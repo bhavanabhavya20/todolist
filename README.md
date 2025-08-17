@@ -29,22 +29,22 @@ This project allows users to manage their daily tasks with options to:
 
 1. Clone the repository:  
    
-   git clone https://github.com/your-username/todo-app.git
+        git clone https://github.com/your-username/todo-app.git
 
 2. Navigate to the project folder:
 
-  cd todo-app
+       cd todo-app
 
 3. Install dependencies:
 
- npm install
+      npm install
 
 4. Run the development server:
 
-npm run dev
+     npm run dev
 
 5. Open in browser:
 
-http://localhost:5173
+    http://localhost:5173
 
    
