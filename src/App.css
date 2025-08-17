@@ -1,0 +1,103 @@
+/* Background & main layout */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') 
+              no-repeat center center fixed;
+  background-size: cover; /* ensures it covers full screen */
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+/* Title */
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Input wrapper */
+.input-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-wrapper input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+.input-wrapper button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.input-wrapper button:hover {
+  background: linear-gradient(45deg, #0056b3, #0096c7);
+}
+
+/* Task list */
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  transition: 0.3s;
+}
+
+.list-item:hover {
+  background: #e2e2e2;
+}
+
+/* Task text */
+.task-text {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
