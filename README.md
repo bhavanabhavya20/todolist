@@ -47,4 +47,29 @@ This project allows users to manage their daily tasks with options to:
 
        http://localhost:5173
 
+
+
+🎯 Future Improvements
+
+Save tasks in local storage or database
+
+Add task categories & filters
+
+Add due dates and reminders
+
+Dark/Light theme
+
+
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+
+.
+
+📜 License
+
+This project is licensed under the MIT License.
+
    
